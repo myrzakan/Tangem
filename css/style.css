@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Lobster&display=swap');
+
 
 
 * {
@@ -14,36 +14,18 @@ h1 {
     text-align: center;
     font-family: 'Kolker Brush', cursive;
     font-size: 60px;  
-    color: white;
-    
+    color: white;   
 }
 
-
 ul {
-    font-family: 'Lobster', cursive;
-    list-style: none;
-    margin: 0px;
-    display: flex;
-    font-size: 25px;
-    text-align: center;
-    justify-content: center;
-    padding: 0px 0px;
+   
+    padding: 5px 0px;
     background-color: black;
-    
-
 }
 
 li a{
-    padding: 0px 70px;
-    color: white;
     text-decoration: none;
 }
-
-a:hover {
-    color: red;
-    
-}
-
 
 header  { 
     width: 100%;
@@ -51,6 +33,24 @@ header  {
     background: url("../img/fon.jpg") center / cover fixed;
 
 }
+
+
+/* --------------------------------------------------------------------------------------------------------------- */
+
+main {
+    background: url(../img/fonTangem.jpg) center / cover;
+
+  
+}
+
+
+img {
+    width: 600px;
+    position: relative;
+    left: 700px ;
+}
+
+
 
 
 
