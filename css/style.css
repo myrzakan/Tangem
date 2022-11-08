@@ -4,18 +4,20 @@
 body {
     margin: 0px;
 }
+
+
+/* ---------------------------------------NAV--------------------------------- */
+
 .container {
     margin: 0px 100px;
     
 }
-
-
-
 .header {
     background-image: url(../img/fon.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .header-line {
@@ -27,7 +29,7 @@ body {
 
 .nav-item {
     color: white;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     font-weight: 700px;
     font-size: 20px;
@@ -38,6 +40,8 @@ body {
 .nav-item:hover {
     color: red;
 }
+
+
 
 
 
@@ -79,30 +83,111 @@ body {
 
 /*  ------------------------- */
 
-.carts1 {
+/* .carts1 {
     background-color: rgb(149, 163, 111);
     width: 420px;
     height: 350px;
-    font-size: 50px;
     font-weight: 400;
     text-align: center;
     margin-right: 900px;
     margin-left: 220px;
     padding: 40px 40px ;
+    border-radius: 0px;
+
       
 }
 
-
 .carts2 {
-    color: aqua;
     background-color: rgb(149, 163, 111);
     width: 420px;
-    height: 350px;
-    font-size: 50px;
-    font-weight: 400;
+    height: 280px;
     text-align: center;
+    margin-left: 750px;
+    margin-right: 900px;
+    padding: 0px 40px;
+    padding-top: 90px;
+    flex-wrap: wrap;
+    
+    
+} */
+
+
+
+
+/* -----------------------------------------------main--------------------------------------------------- */
+
+
+
+.cartsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    
+   
     
 }
 
+.informBlock {
+    width: 349px;
+    height: 250px;
+    background: #ffffff;
+    padding: 30px;
+    box-sizing: border-box;
+    transition: .4s;
+    margin: 0px 31px;
+    margin-top: -80px;
+    box-shadow: -1px 6px 15px 4px rgba(10, 11, 11, 0.36);
+    cursor: pointer;
+    
+    
+}
+
+span {
+    color: #D67E35;
+}
+
+.mainText {
+    color: black;
+    margin: 55px 0 0 0;
+    font-size: 20px;
+}
+
+.underlineBlock {
+    height: 0;
+    width: 35px;
+    border-top: 2px solid white;
+    margin-top: 10px;
+    transition: .4s;
+}
+
+.secondText {
+    color:  #383737;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.informBlock:hover {
+    background: #D67E35;
+    
+}
+
+.informBlock:hover .underlineBlock{
+    width: 220px;
+    border-color: black;
+    transition: width 1s;
+}
+
+.secondText:hover {
+    color: black;
+}
 
 
