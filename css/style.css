@@ -78,7 +78,7 @@ body {
 /*  ------------------------- */
 
 .text {
-    background-color: red;
+    background-color: #487;
     width: 420px;
     height: 350px;
     font-size: 50px;
@@ -93,5 +93,5 @@ body {
 }
 
 main {
-    background: url(./img/fotofon.jpeg) center / cover;
+    background: url(./img/) center / cover;
 }
