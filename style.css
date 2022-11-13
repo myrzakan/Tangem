@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 * {
     margin: 0;
@@ -10,7 +11,7 @@
 /* --------------------------------------Scroll----------------------------------------- */
 
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 12px;
 }
 
 ::-webkit-scrollbar-track {
@@ -98,10 +99,7 @@
 
 .wrap {
     display: flex;
-    align-items: center;
-    
-   
-    
+    align-items: center;   
 }
 
 .informBlock {
@@ -327,5 +325,70 @@ span {
 }
 
 
+/* ------------------------------------------footer------------------------ */
 
 
+footer {
+    background: rgb(82, 80, 80);
+    font-family: 'Open Sans', sans-serif;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #ffffff;
+}
+
+.footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 0px;
+    
+}
+
+.days_hours {
+    display: flex;
+}
+
+.socials_icon img {
+    width: 20px;
+}
+
+.footer_content h3 {
+    font-weight: 400;
+}
+
+.footer_content p {
+    padding: 10px 30px;
+    font-size: 14px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials_icon {
+    padding: 10px 20px;
+}
+
+.footer_bottom {
+    background-color: #D67E35;
+    padding: 10px 0px;
+    text-align: center;
+   
+}
+
+.footer_bottom p {
+    font-size: 12px;
+
+}
+
+.footer_bottom h3 {
+    padding: 20px 0px;
+    font-family: 'Island Moments', cursive;
+    font-size: 70px;
+}
