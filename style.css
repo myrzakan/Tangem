@@ -1,15 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 * {
     margin: 0;
 
 }
 
+/* --------------------------------------Scroll----------------------------------------- */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #dddddd;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #D67E35;
+}
+
 
 /* ---------------------------------------NAV--------------------------------- */
 
-.container {
+.container_main {
     margin: 0px 100px;
     
 }
@@ -45,7 +60,7 @@
 
 .header_logo img {
     position: relative;
-    right: 102px;
+    right: 6%;
     
 }
 
@@ -64,39 +79,6 @@
     margin-bottom: 12px;
     margin-left: 100px;
 }
-
-
-
-/*  ------------------------- */
-
-/* .carts1 {
-    background-color: rgb(149, 163, 111);
-    width: 420px;
-    height: 350px;
-    font-weight: 400;
-    text-align: center;
-    margin-right: 900px;
-    margin-left: 220px;
-    padding: 40px 40px ;
-    border-radius: 0px;
-
-      
-}
-
-.carts2 {
-    background-color: rgb(149, 163, 111);
-    width: 420px;
-    height: 280px;
-    text-align: center;
-    margin-left: 750px;
-    margin-right: 900px;
-    padding: 0px 40px;
-    padding-top: 90px;
-    flex-wrap: wrap;
-    
-    
-} */
-
 
 
 
@@ -272,10 +254,78 @@ span {
 /* --------------------------------------background url------------------------------------ */
 
 
-.fon {
+.fon_img {
     position: relative;
-    top: 300px;
-    background: url(./img/k.1.jpg) center / cover fixed;
+    top: 200px;
+    background: url(./img/interier-restorana.jpg) center / cover fixed;
     width: 100%;
-    height: 900px;   
+    height: 750px;   
+    margin-bottom: 100px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
 }
+
+
+
+.fon_img h1 {
+    font-size: 40px;
+}
+
+.fon_img p {
+    font-size: 16px;
+}
+
+.img_text {
+    padding-top: 260px;
+    padding-left: 300px;
+    padding-right: 500px;
+}
+
+
+
+
+/* ---------------------------------------------------img--------------------------------  */
+
+.section_container {
+    margin-top: 500px;
+    margin-bottom: 200px;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.section_text h2 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.section_text p {
+    font-size: 16px;   
+    padding-right:  350px; 
+}
+
+.section_text {
+    margin-left: 580px;
+}
+
+.img_1 {
+    position: relative;
+    left: 248px;
+    bottom: 70px;
+}
+
+.img_2 {
+    position: relative;
+    right: 150px;
+    bottom: 550px;
+}
+
+.img_3 {
+    position: relative;
+    top: 50px;
+    right: 133px;
+}
+
+
+
+
