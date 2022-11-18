@@ -1,15 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Cedarville+Cursive&family=Island+Moments&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
 
 *{
-
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*font-family: sans-serif;*/
     font-family: 'Barlow', sans-serif;
 
 }
-
+ 
+nav { 
+    margin: 0 auto; 
+    width: 1300px; 
+} 
+ 
+.container_main { 
+    margin: 0px 100px; 
+     
+} 
+ 
+ 
+.header { 
+    width: 100%; 
+    height: 100vh; 
+  
+} 
+ 
+.header_logo img { 
+    width:258px; 
+    margin-left: 130px; 
+    margin-top: -35px; 
+} 
+ 
+.header_line { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    margin-top: -150px; 
+    margin-left: 480px; 
+   
+} 
+ 
+.nav_item { 
+    color: white; 
+    font-family: 'Montserrat', sans-serif; 
+    text-decoration: none; 
+    font-weight: 700px; 
+    font-size: 20px; 
+    margin-right: 25px; 
+    transition: color 0.3s linear; 
+    padding: 0px 20px; 
+     
+} 
+.nav_item:hover { 
+    color: red; 
+} 
+ 
+ 
+.header_1 { 
+    font-family: 'Island Moments', cursive; 
+} 
+ 
+.header_title { 
+    color: #d67e35; 
+    font-size: 70px; 
+    font-weight: 400; 
+    text-align: center; 
+    position: absolute; 
+    left: 100px; 
+    margin-top: 300px; 
+    margin-left: 90px; 
+}
 html{
     scroll-behavior: smooth;
 }
@@ -19,143 +81,19 @@ section{
     height: 100vh;
 }
 
-section nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    right: 0;
-    left: 0;
-    background: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    z-index: 1000;
+/*------------------------------------------About--------------------------------------*/
+
+main {
+    margin: 0 auto;
+    width: 1305px;
 }
-
-section nav .logo img{
-    width: 100px;
-    cursor: pointer;
-    margin: 7px 0;
-}
-
-section nav ul{
-    list-style: none;
-}
-
-section nav ul li{
-    display: inline-block;
-    margin: 0 15px;
-}
-
-section nav ul li a{
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
-    font-size: 17px;
-    transition: 0.1s;
-}
-
-section nav ul li a::after{
-    content: '';
-    width: 0;
-    height: 2px;
-    background: #fac031;
-    display: block;
-    transition: 0.2s linear;
-}
-
-section nav ul li a:hover::after{
-    width: 100%;
-}
-
-section nav ul li a:hover{
-    color: #fac031;
-}
-
-section nav .icon i{
-    font-size: 18px;
-    color: #000;
-    margin: 0 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-section nav .icon i:hover{
-    color: #fac031;
-}
-
-section .main{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: relative;
-    top: 130px;
-}
-
-section .main .men_text h1{
-    font-size: 50px;
-    position: relative;
-    top: -90px;
-    left: 20px;
-}
-
-section .main .men_text h1 span{
-    margin-left: 15px;
-    color: #fac031;
-    font-family: mv boli;
-    line-height: 22px;
-    font-size: 70px;
-    font-family: 'Barlow', sans-serif;
-
-}
-
-section .main .main_image img{
-    width: 700px;
-    position: relative;
-    left: 43px;
-}
-
-section p{
-    width: 450px;
-    text-align: justify;
-    position: relative;
-    left: 80px;
-    bottom: 120px;
-    line-height: 22px;
-}
-
-section .main_btn{
-    background: #fac031;
-    position: relative;
-    left: 123px;
-    bottom: 30px;
-    width: 150px;
-    cursor: pointer;
-    padding: 12px 25px;
-}
-
-section .main_btn a{
-    color: #fff;
-    margin-right: 5px;
-    text-decoration: none;
-}
-
-section .main_btn i{
-    color: #fff;
-    transition: 0.3s;
-}
-
-section .main_btn:hover i{
-    transform: translateX(7px);
-}
-
-
-
-/*About*/
 
 .about{
     width: 100%;
     height: 100vh;
     padding: 100px 0;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .about .about_main{
@@ -173,7 +111,8 @@ section .main_btn:hover i{
 .about .about_main .about_text h1 span{
     color: #fac031;
     margin-right: 15px;
-    font-family: mv boli;
+    font-family: 'Montserrat', sans-serif;
+
     
 }
 
@@ -193,7 +132,7 @@ section .main_btn:hover i{
     width: 550px;
     text-align: justify;
     margin-right: 30px;
-    line-height: 22px;
+    line-height: 29px;
     
 }
 
@@ -209,11 +148,11 @@ section .main_btn:hover i{
 
 
 
-/*Menu*/
+/*--------------------------------------Menu-------------------------------------------------*/
 
 .menu{
     width: 100%;
-    padding: 70px 0;
+    padding: 60px 0;
 }
 
 .menu h1{
@@ -227,7 +166,6 @@ section .main_btn:hover i{
 .menu h1 span{
     color: #fac031;
     margin-left: 15px;
-    font-family: mv boli;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -351,11 +289,11 @@ section .main_btn:hover i{
 
 
 
-/*Gallary*/
+/*----------------------------------------Gallary--------------------------------------------*/
 
 .gallary{
     width: 100%;
-    padding: 70px 0;
+    padding: 50px 0;
 }
 
 .gallary h1{
@@ -368,7 +306,8 @@ section .main_btn:hover i{
 .gallary h1 span{
     margin-left: 15px;
     color: #fac031;
-    font-family: mv boli;
+    font-family: 'Barlow', sans-serif;
+
 }
 
 .gallary h1 span::after{
@@ -378,7 +317,7 @@ section .main_btn:hover i{
     background: #fac031;
     display: block;
     position: relative;
-    bottom: 15px;
+    bottom: 8px;
 }
 
 .gallary .gallary_image_box{
@@ -456,7 +395,7 @@ section .main_btn:hover i{
 
 
 
-/*Review*/
+/*----------------------------------------Review-----------------------------------------*/
 
 .review{
     width: 100%;
@@ -469,12 +408,14 @@ section .main_btn:hover i{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .review h1 span{
     margin-left: 15px;
     color: #fac031;
-    font-family: mv boli;
+    font-family: 'Island Moments', cursive;
+    font-size: 100px;
 }
 
 .review h1 span::after{
@@ -491,6 +432,7 @@ section .main_btn:hover i{
     width: 95%;
     margin: 70px auto;
     display: flex;
+    
 }
 
 .review .review_box .review_card{
@@ -501,6 +443,7 @@ section .main_btn:hover i{
     padding: 15px 25px;
     margin: 0px 8px;
     
+    
 }
 
 .review .review_box .review_card .review_profile{
@@ -509,6 +452,7 @@ section .main_btn:hover i{
     justify-content: center;
     position: relative;
     transition: 0.3s;
+    
 }
 
 .review .review_box .review_card:hover .review_profile{
@@ -522,6 +466,8 @@ section .main_btn:hover i{
     object-position: center;
     border-radius: 50%;
     border: 5px solid #cccccc;
+    
+
 }
 
 .review .review_box .review_card .review_text{
@@ -552,134 +498,49 @@ section .main_btn:hover i{
     opacity: 0;
     cursor: pointer;
     transition: 0.3s;
+    
 }
 
 .review .review_box .review_card:hover .review_text .review_social i{
     opacity: 1;
     transform: translateY(-8px);
+
 }
 
 .review .review_box .review_card .review_text p{
     text-align: center;
     line-height: 22px;
     transition: 0.3s;
+    
 }
 
 .review .review_box .review_card:hover .review_text p{
     margin-top: 5px;
     
-}
-
-
-
-/*Order*/
-
-.order{
-    width: 100%;
-    height:120vh;
-    padding: 70px 0;
-    background-image: url(image/bg2.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.order h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000;
-    font-size: 55px;
-
     
 }
 
-.order h1 span{
-    color: #fac031;
-    margin-right: 15px;
-    font-family: mv boli;
-    
-}
-
-.order h1 span::after{
-    content: '';
-    width: 100%;
-    height: 2px;
-    background: #fac031;
-    display: block;
-    position: relative;
-    bottom: 15px;
-    
-}
-
-.order .order_main{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.order .order_main .order_image img{
-    width: 600px;
-    
-}
-
-.order .order_main form{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 0 10px;
-}
-
-.order .order_main form .input p{
-    line-height: 25px;
-    
-}
-
-.order .order_main form .input{
-    margin: 5px;
-}
-
-.order .order_main form .input input{
-    width: 300px;
-    height: 35px;
-    padding: 0 10px;
-    border: 2px solid #cccccc;
-    background: #eeeeee;
-    outline: none;
-    border-radius: 3px;
-}
-
-.order .order_main form .input input:focus{
-    border: 2px solid #fac031;
-}
-
-.order .order_main form .order_btn{
-    padding: 10px 0;
-    background: #fac031;
-    color: white;
-    width: 40%;
-    text-align: center;
-    margin-top: 20px;
-    text-decoration: none;
-}
 
 
 
+/*-------------------------Team-------------------------------*/
 
-/*Team*/
 
 .team{
     width: 100%;
-    height: 90vh;
-    background-image: url(image/bg1.jpg);
-    background-size: cover;
-    background-position: center;
+    height: 109vh;
+    padding: 150px 0;
 }
+
 
 .team h1{
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 55px;
-    margin-bottom: 30px;
+    
+    
+    
 }
 
 .team h1 span{
@@ -741,6 +602,7 @@ section .main_btn:hover i{
 .team .team_box .profile:hover img{
     border-radius: 20px;
     margin-top: -230px;
+    
 }
 
 .team .team_box .profile .info{
@@ -777,12 +639,13 @@ section .main_btn:hover i{
 
 
 
-/*Footer*/
+/*------------------------------------------Footer-----------------------------------------*/
 
 footer{
     width: 100%;
     padding: 30px 0 0 20px;
     background: #eeeeee;
+    
 }
 
 footer .footer_main{
@@ -839,3 +702,40 @@ footer .end span{
     border-radius: 15px;
 }
 
+/*@media only screen and (max-width:2560px){
+    .header_title {
+        margin-left: 595px;
+    }
+
+    .nav_item {
+        font-size: 25px;
+    }
+
+    .about {
+        height: 44vh;
+    }
+
+    .review {
+        height: 56vh;
+    }
+
+    .team {
+        height: 60vh;
+    }
+}
+
+@media only screen and (max-width:1440px){
+    .header_title {
+        font-size: 57px;
+        left: -473px;
+        margin-top: 186px;
+        
+    }
+    .menu {
+        padding: 264px 0;
+    }
+
+}
+    
+
+        
