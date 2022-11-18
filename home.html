@@ -7,6 +7,7 @@
     <title>Restaurant</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/icon-restaurant.png" type="image/x-icon">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
@@ -15,42 +16,31 @@
   AOS.init();
     </script>
 
-    <div class="header_1">
-        <div class="header_title">
-            Welcome to
-            <div class="header_subtitle">
-                TANGEM
-            </div>
-                   
-        </div>
-    </div>
-
 
     <nav>
 
-        <div class="header_1">
+        <div class="header_1" style="
+        margin: 0 auto;
+        width: 1330px;">
             <div class="header_title">
-                Welcome to
-                <div class="header_subtitle">
-                    TANGEM
-                </div>
-                       
+                Welcome to Tangem         
             </div>
         </div>
 
-         <div class="header">
+    
+         <div class="header" style="background: url(./img/fon.png) center / cover;">
             <div class="container">
+                <div class="header_logo">
+                    <img src="./img/logo.png" alt="logo">
+                </div>
                 <div class="header_line">
-                    <div class="header_logo">
-                        <img src="./img/logo.png" alt="logo">
-                    </div>
                     <div class="nav">
-                        <a class="nav_item" href="#">Главная</a>
-                        <a class="nav_item" href="#">Меню</a>
-                        <a class="nav_item" href="#">Галерия</a>
-                        <a class="nav_item" href="#">Бронь</a>
-                        <a class="nav_item" href="#">Контакты</a>
-                    </div>
+                        <a class="nav_item" href="#">Home</a>
+                        <a class="nav_item" href="#">Menu</a>
+                        <a class="nav_item" href="#">Gallery</a>
+                        <a class="nav_item" href="#">Booking</a>
+                        <a class="nav_item" href="#">Contacts</a>
+                    </div>     
                 </div>
             </div>
         </div>
@@ -130,20 +120,11 @@
                         data-aos-offset="380"
                         data-aos-easing="ease-in-sine">
                             
-                            <img class="images_1" src="./img/b.1.jpg" alt="img" 
-                            style="
-                                   width: 233px;
-                                   height: 300px;">
+                            <img class="images_1" src="./img/b.1.jpg" alt="img">
 
-                            <img class="images_2" src="./img/b.2.jpg" alt="img"
-                            style="
-                                   width: 255px;
-                                   height: 430px;">
+                            <img class="images_2" src="./img/b.2.jpg" alt="img">
 
-                            <img class="images_3" src="./img/b.3.jpg" alt="img"
-                            style="
-                                   width: 255px;
-                                   height: 300px;">
+                            <img class="images_3" src="./img/b.3.jpg" alt="img">
 
                         </div> 
 
@@ -180,21 +161,15 @@
     
 
                 <div class="img">
-                    <img class="img_1" src="./img/img.1.webp" style="
-                    width: 306px;
-                    height: 459px;"
+                    <img class="img_1" src="./img/img.1.webp"
                      data-aos="fade-up"
                      data-aos-duration="1600">
 
-                    <img class="img_2" src="./img/img.2.jpg" style="
-                    width: 394px;
-                    height: 591px;"
+                    <img class="img_2" src="./img/img.2.jpg"
                      data-aos="fade-up"
                      data-aos-duration="1200">
 
-                    <img class="img_3" src="./img/img.3.jpg" style="
-                    width: 547px;
-                    height: 821px;"
+                    <img class="img_3" src="./img/img.3.jpg"
                      data-aos="fade-up"
                      data-aos-duration="1500">
 
@@ -208,26 +183,50 @@
 
 
     <footer>
+        <div class="footer_main">
 
-        <div class="footer_content">
-            <h3>ЧАСЫ РАБОТЫ</h3>
-            <div class="days_hours">
-                <p class="days">Без-выходных</p>
-                <p class="hours">9:00 - 23:00</p>
+            <div class="footer_tag">
+                <h2>Location</h2>
+                <p>Sri Lanka</p>
+                <p>USA</p>
+                <p>India</p>
+                <p>Japan</p>
+                <p>Italy</p>
             </div>
-           
 
-            <ul class="socials">
-                <li class="socials_icon"><a href="#"><img src="./img/instagram.png" alt="icon"></a></li>
-                <li class="socials_icon"><a href="#"><img src="./img/whatsapp.png" alt="icon"></a></li>
-                <li class="socials_icon"><a href="#"><img src="./img/telegram.png" alt="icon"></a></li>
-            </ul>
+            <div class="footer_tag">
+                <h2>Quick Link</h2>
+                <p><a href="#">Home</a></p> 
+                <p><a href="#">About</a></p>
+                <p><a href="#">Menu</a></p>
+                <p><a href="#">Gallery</a></p>
+                <p><a href="#">Booking</a></p>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Contact</h2>
+                <p>+996 500 007 002</p>
+                <p>+94 25 5568456</p>
+                <p>johndeo123@gmail.com</p>
+                <p>Tangem123@gmail.com</p>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Our Service</h2>
+                <p>Fast Delivery</p>
+                <p>Easy Payments</p>
+                <p>24 x 7 Service</p>
+            </div>
+
+
         </div>
-        <div class="footer_bottom">
-            <p>МЫ БУДЕМ РАДЫ ПОДЕЛИТЬСЯ С ВАМИ НАШИМИ ГАСТРОНОМИЧЕСКИМИ НОВОСТЯМИ, ДАТАМИ НАШИХ МЕРОПРИЯТИЙ И МНОГИМ ДРУГИМ!</p>
-            <h3>Thank You</h3>
-        </div>
+
+        <p class="end">Design by<span><i class="fa-solid fa-face-grin"></i> Myrzakan </span></p>
+
     </footer>
+
+
+
      
    
 
